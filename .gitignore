@@ -36,9 +36,6 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-.env
-
 # IDE files
 .vscode/
 .idea/
@@ -73,3 +70,6 @@ tests/
 __tests__/
 *.test.js
 *.spec.js
+
+
+package-lock.json
