@@ -1,0 +1,27 @@
+{
+  "name": "favorite-movies-api",
+  "version": "1.0.0",
+  "description": "RESTful API for managing favorite movies and TV shows",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["movies", "tv-shows", "api", "rest", "nodejs", "express"],
+  "author": "Raj Kumar Singha",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sequelize": "^6.37.5",
+    "mysql2": "^3.9.5",
+    "yup": "^1.4.0",
+    "cors": "^2.8.5",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.4.7",
+    "express-rate-limit": "^7.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
